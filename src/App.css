@@ -1,0 +1,74 @@
+body{
+    /* background-color: gray; */
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+.login-container{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1vw;
+    width: 33vw;
+    height: 79vh;
+    border-radius: 4px;
+    background: #FFF;
+    padding-left: 3%;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+}
+.login-container h1{
+    font-size: 2.1vw;
+}
+img{
+    width: 10vw;
+}
+.login-container label{
+    color: #333;
+    font-family: Mulish;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1vh;
+}
+
+.login-container input{  
+    width: 25vw;
+    height: 7vh;
+    padding: 0px 1vw;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+    font-size: 1.2vw;
+}
+
+.login-container button{
+    margin-top: 1vw;
+    width: 27vw;
+    height: 7vh;
+    font-size: 1.1vw;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.login-container a{
+    margin-left: 7vw;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+}
+
+#para{
+    margin-top: 5vh;
+    color: #333;
+    font-family: Mulish;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
